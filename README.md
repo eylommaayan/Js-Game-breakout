@@ -1,4 +1,4 @@
-﻿# Js-Game-breakout
+
 # Js-Game-breakout
 <img width="1587" height="857" alt="image" src="https://github.com/user-attachments/assets/d0c2512c-c89d-4d3e-b6ff-197da5101c73" />
 
