@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>משחק הלבנים!</title>
+  </head>
+  <body>
+    <h1>שבור את הלבנים!</h1>
+    <button id="rules-btn" class="btn rules-btn">הוראות המשחק</button>
+
+    <div id="rules" class="rules">
+      <h2>איך משחקים?</h2>
+      <p>השתמשו בחצים <b>ימינה ושמאלה</b> כדי להזיז את המחבט.</p>
+      <p>המטרה היא להקפיץ את הכדור ולשבור את כל הלבנים.</p>
+      <p>אם הכדור נופל לרצפה - המשחק נגמר והניקוד מתאפס!</p>
+      <button id="close-btn" class="btn">סגור</button>
+    </div>
+    <div id="game-over" class="game-over-container">
+      <h2>המשחק נגמר!</h2>
+      <p id="final-score">ניקוד: 0</p>
+      <button id="restart-btn" class="btn">משחק חדש</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
